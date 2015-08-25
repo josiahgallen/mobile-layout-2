@@ -3,6 +3,7 @@ header {
 	background-color: #118BC0;
 	padding-left: 2em;
 	overflow: hidden;
+	height: 5em;
 }
 
 .main {
@@ -13,6 +14,7 @@ header {
 }
 
 .break {
+	box-sizing: border-box;
 	height: 11.875em;
 	background-color: #E8F0F5;
 }
@@ -52,17 +54,20 @@ p {
 	height: 3.125em;
 	background-color: #118BC0;
 	border: solid 1em #212934;
-	width: 20em;
+	width: 300px;
 	margin: 0 auto;
 }
 
 .noborder {
 	border: solid 1em #118BC0;
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	height: auto;
+	width: 300px;
 }
 
-.bottom {
-	padding: 10em 19em 0 19em;
-}
+
 
 .whitebox {
 	height: 1.5em;
@@ -111,30 +116,36 @@ p {
 	float: left;
 }
 
-.bighead {
+/*.bighead {
 	width: 10em;
 	margin-left: 2em;
-}
+}*/
 
 .bluehead {
+	box-sizing: border-box;
 	margin: 0;
 	float:right;
 	width: 8em;
 	height: 5em;
 	background-color: #0070A4;
+	text-align: center;
+	color: white;
+	padding-top: 2em;
+	font-size: 1.1em;
 }
 
 .gray {
-	margin: 1em 1em 0 0;
-	height: 3em;
+	margin: 0;
+	height: 4em;
 	width: 5em;
-	background-color: #5C6879;
+	background-color: transparent;
 	float: left;
 }
 
 .gbig {
-	margin: 0 0 1em 0;
-	width: 20em;
+	margin: 0;
+	width: 21em;
+	background-color: #344051;
 }
 
 .texthold {
@@ -142,15 +153,56 @@ p {
 	height: 5em;
 	width: 8em;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .thmed {
 	height: 2.5em;
 	margin-top: 1em;
-	width: 57em;
+
+	background-color: transparent;
+	font-size: 2em;
+	color: #426283;
 }
 
 .thbig {
-	margin-top: 1em;
-	width: 57em;
+	background-color: transparent;
+	color: #4B4B4C;
+	font-size: 1.1em;
+	width: 55em;
+}
+
+.wordpress {
+	font-size: 1.5em;
+	box-sizing: border-box;
+	color: #FDFDFB;
+	margin-left: 1em;
+	background-color: transparent;
+	
+}
+
+.com {
+	box-sizing: border-box;
+	color: #98CEE4;
+	margin-top: 10em;
+}
+
+.print {
+	font-size: 1em;
+	margin-left: 1.5em;
+	padding-top: .5em;
+}
+
+.promo {
+	font-size: 2.5em;
+	color: #314156;
+	text-align: center;
+}
+
+.bpromo {
+	padding-top: 1em;
+}
+
+.p2 {
+	font-size: 2em;
 }
