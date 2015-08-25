@@ -1,7 +1,13 @@
+header {
+	box-sizing: border-box;
+	background-color: #118BC0;
+	padding-left: 2em;
+	overflow: hidden;
+}
+
 .main {
 	height: 80em;
 	background-color: #344051;
-	border-top: solid 3.125em #118BC0;
 	box-sizing: border-box;
 	padding: 10.9375em 19em 3em 19em;
 }
@@ -12,7 +18,8 @@
 }
 
 .content {
-	height: 13.4375em;
+	/*height: 13.4375em;*/
+	padding: 2em 0 2em 0;
 	border-top: solid 2.0625em #D1D3D7;
 	border-right: solid .625em #D1D3D7;
 	border-left: solid .625em #D1D3D7;
@@ -65,8 +72,10 @@ p {
 }
 
 .big {
-	margin: 3em auto;
+	box-sizing: border-box;
 	height: 4em;
+	overflow: hidden;
+	margin: 3em auto;
 	width:26em;
 }
 
@@ -92,4 +101,56 @@ p {
 
 .row2 {
 	padding-top: 2em;
+}
+
+.headbox {
+	margin: 1em 0 1em 0;
+	height: 3em;
+	width: 3em;
+	background-color: white;
+	float: left;
+}
+
+.bighead {
+	width: 10em;
+	margin-left: 2em;
+}
+
+.bluehead {
+	margin: 0;
+	float:right;
+	width: 8em;
+	height: 5em;
+	background-color: #0070A4;
+}
+
+.gray {
+	margin: 1em 1em 0 0;
+	height: 3em;
+	width: 5em;
+	background-color: #5C6879;
+	float: left;
+}
+
+.gbig {
+	margin: 0 0 1em 0;
+	width: 20em;
+}
+
+.texthold {
+	background-color: #C7D2D8;
+	height: 5em;
+	width: 8em;
+	margin: 0 auto;
+}
+
+.thmed {
+	height: 2.5em;
+	margin-top: 1em;
+	width: 57em;
+}
+
+.thbig {
+	margin-top: 1em;
+	width: 57em;
 }
