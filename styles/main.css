@@ -7,21 +7,21 @@ header {
 }
 
 .main {
-	height: 80em;
 	background-color: #344051;
 	box-sizing: border-box;
 	padding: 10.9375em 19em 3em 19em;
+	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/crowd.jpg?raw=true");
+	background-size: 100%;
 }
 
 .break {
 	box-sizing: border-box;
-	height: 11.875em;
+	padding: 3em 0;
 	background-color: #E8F0F5;
 }
 
 .content {
-	/*height: 13.4375em;*/
-	padding: 2em 0 2em 0;
+	padding: 2em 0 0 0;
 	border-top: solid 2.0625em #D1D3D7;
 	border-right: solid .625em #D1D3D7;
 	border-left: solid .625em #D1D3D7;
@@ -32,11 +32,10 @@ header {
 }
 
 footer {
-	height: 8.125em;
 	background-color: #000000;
 	overflow: hidden;
-
-	padding-top: 2em;
+	padding-top: 3em;
+	padding-bottom: 3em;
 	text-align: center;
 }
 
@@ -48,45 +47,59 @@ p {
 
 .standardsize {
 	font-size: 1em;
+	margin-bottom: 3em;
 }
 
 .bluebox {
-	height: 3.125em;
+	height: auto;
 	background-color: #118BC0;
-	border: solid 1em #212934;
 	width: 300px;
 	margin: 0 auto;
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1em 0;
+	box-shadow: 0 0 0 .5em rgba(0,0,0,.2);
 }
 
 .noborder {
-	border: solid 1em #118BC0;
+	border: none;
 	color: white;
 	text-align: center;
 	font-size: 1.5em;
 	height: auto;
 	width: 300px;
+	box-shadow: none;
+	margin-top: 1em;
 }
 
 
 
 .whitebox {
-	height: 1.5em;
-	width: 3em;
-	background-color: white;
+	background-color: transparent;
 	margin: 13em 0 5em 11em;
+}
+
+.arrow {
+	height: none;
+	width: none;
+	color: white;
+	background-color: transparent;
+	margin: 13em auto;
+	padding-left: 10em;
 }
 
 .big {
 	box-sizing: border-box;
-	height: 4em;
+
 	overflow: hidden;
 	margin: 3em auto;
 	width:26em;
 }
 
 .medium {
-	margin: 1.5em auto;
-	width: 7em;
+	margin: 0 auto;
+	padding-top: 2em;
 }
 
 .links {
@@ -106,20 +119,14 @@ p {
 
 .row2 {
 	padding-top: 2em;
+	margin-bottom: 5em;
 }
 
 .headbox {
-	margin: 1em 0 1em 0;
-	height: 3em;
-	width: 3em;
-	background-color: white;
+	margin: .5em 0 0 -.5em;
+	background-color: transparent;
 	float: left;
 }
-
-/*.bighead {
-	width: 10em;
-	margin-left: 2em;
-}*/
 
 .bluehead {
 	box-sizing: border-box;
@@ -135,8 +142,8 @@ p {
 }
 
 .gray {
-	margin: 0;
-	height: 4em;
+	margin: 2em 0;
+	
 	width: 5em;
 	background-color: transparent;
 	float: left;
@@ -145,21 +152,61 @@ p {
 .gbig {
 	margin: 0;
 	width: 21em;
-	background-color: #344051;
+	background-color: transparent;
 }
 
 .texthold {
 	background-color: #C7D2D8;
-	height: 5em;
-	width: 8em;
+	height: 3em;
+	width: 3em;
 	margin: 0 auto;
 	text-align: center;
+	/*border: 1em solid #C7D2D8;
+	border-radius: 50%;*/
+	background-size: contain;
+	padding: .5em 0 0 .5em;
+}
+
+.lightbulb {
+	border: 1em solid #C7D2D8;
+	border-radius: 50%;
+	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/lightbulb.png?raw=true");
+}
+
+.cloud {
+	border: 1em solid #C7D2D8;
+	border-radius: 50%;
+	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/cloud.png?raw=true");
+}
+
+.gator {
+	border: 1em solid #C7D2D8;
+	border-radius: 50%;
+	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/code.png?raw=true");
+}
+
+.dialogue {
+	border: 1em solid #C7D2D8;
+	border-radius: 50%;
+	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/comments.png?raw=true");
+}
+
+.present {
+	border: 1em solid #C7D2D8;
+	border-radius: 50%;
+	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/gift.png?raw=true");
+}
+
+.globe {
+	border: 1em solid #C7D2D8;
+	border-radius: 50%;
+	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/globe.png?raw=true");
 }
 
 .thmed {
 	height: 2.5em;
+	width: 10em;
 	margin-top: 1em;
-
 	background-color: transparent;
 	font-size: 2em;
 	color: #426283;
@@ -170,13 +217,14 @@ p {
 	color: #4B4B4C;
 	font-size: 1.1em;
 	width: 55em;
+	margin-bottom: 3em;
 }
 
 .wordpress {
 	font-size: 1.5em;
 	box-sizing: border-box;
 	color: #FDFDFB;
-	margin-left: 1em;
+	margin: 1em 0 0 1em;
 	background-color: transparent;
 	
 }
@@ -190,7 +238,6 @@ p {
 .print {
 	font-size: 1em;
 	margin-left: 1.5em;
-	padding-top: .5em;
 }
 
 .promo {
